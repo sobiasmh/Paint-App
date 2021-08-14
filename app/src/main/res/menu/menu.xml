@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/colorId"
+        android:icon="@drawable/baseline_color_lens_white_18dp"
+        android:title="@string/Color"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/saveId"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/Save" />
+    <item
+        android:id="@+id/lineWidth"
+        android:icon="@drawable/baseline_colorize_white_18dp"
+        android:title="@string/lineWidth"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/eraseId"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:title="@string/erase"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/clearId"
+        android:title="@string/clear" />
+</menu>
